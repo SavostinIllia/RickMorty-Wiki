@@ -1,0 +1,20 @@
+.filter{
+    border: 1px solid var(--primaryGrey);
+    padding: 15px;
+    border-radius: .5rem;
+}
+
+.filter-button{
+    padding: 8px 16px;
+    background: var(--primaryGrey);
+    border: 1px solid var(--primaryGrey);
+    cursor: pointer;
+    border-radius: .5rem;
+    &:hover{
+        background: var(--salad);
+    }
+}
+
+.active{
+    background: var(--salad);
+}

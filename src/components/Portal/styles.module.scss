@@ -1,0 +1,10 @@
+.portal{
+    &-big{
+        width: 100%;
+        max-width: 700px;
+    }
+    &-small{
+        width: 30px;
+        height: auto;
+    }
+}

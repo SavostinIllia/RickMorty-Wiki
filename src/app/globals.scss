@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* backgrounds*/ 
+  --background: #ffffff;
+  --foreground: #171717;
+  
+  --primaryGrey: #424242;
+  --primaryGrey-rgb: 66,66,66;
+  
+  --primaryTeal: #01b5cf;
+  --primaTeal-rgb: 1, 181, 207;
+
+  --salad: #b2e12c;
+  --salad-rgb: 178,225,44;
+
+  --primaryGreen: #4ade80;
+  --primaryGreen-rgb: 74,222,128;
+
+  --primaryRed: #f43f5e;
+  --primaryRed-rgb: 244,63,94;
+
+  --primaryOrange: #fa9336;
+  --primaryOrange-rgb: 250,147,54;
+
+  /*texts*/
+  --secoundaryGrey: #9e9e9e ;
+  --ricksTextHover: 3px 3px 4px rgba(var(--salad-rgb), 1);
+  --mortysTextHover: 3px 3px 4px rgba(var(--primaTeal-rgb), 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #212121;;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-wubba), sans-serif;
+
+  .portal-loader{
+    background: rgba(0,0,0, .4);
+  }
+}
+

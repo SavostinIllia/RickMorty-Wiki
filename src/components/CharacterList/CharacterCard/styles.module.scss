@@ -1,0 +1,31 @@
+.character-card{
+    background: rgba(0,0,0, .4);
+    .indicator{
+        width: .5rem;
+        height: .5rem;
+        display: inline-block;
+        vertical-align: middle;
+        &.dead{
+            background: var(--primaryRed);
+         
+        }
+        &.alive{
+            background: var(--primaryGreen);
+       
+        }
+        &.unknown{
+            background: var(--primaryOrange);
+        }
+    }
+    
+    .dead{
+        color: var(--primaryRed);
+    }
+    .alive{
+        color: var(--primaryGreen);
+    }
+    .unknown{
+        color: var(--primaryOrange);
+    }
+}
+
